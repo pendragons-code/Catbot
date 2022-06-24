@@ -25,4 +25,4 @@
   Yes I am aware most of you guys use `message` and that I, out of pure retardacy, chose to use `messageCreate`.
   # Running the bot
   In the repo, you might notice 2 `.sh` files, `setup.sh` and `run.sh`. They basically setup and run respectively. Anyhow, I will added this because someone asked for some resources. So i told them anbout NVM ([node version manager](https://github.com/nvm-sh/nvm)).   
-  More about run.sh: Basically a script that gets the bot up and puts logs and errors in files. Also if the files do not exist it will automatically be created.
+  More about `run.sh`: Basically a script that gets the bot up and puts logs and errors in files. Also if the files do not exist it will automatically be created.
