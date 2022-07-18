@@ -1,8 +1,7 @@
 const fs = require('fs')
 const Discord = require('discord.js')
 const { Client, Intents } = require('discord.js');
-const myIntents = new Intents(32767);
-const bot = new Client({ intents: myIntents });
+const bot = new Client({ intents: 32767 });
 bot.commands = new Discord.Collection();
 function commander(){
 console.log(`\x1b[32m%s`, `
